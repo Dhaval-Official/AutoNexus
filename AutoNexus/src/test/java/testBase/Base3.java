@@ -12,7 +12,7 @@ import org.testng.annotations.BeforeClass;
 
 public class Base3 {
 	
-	//Base1 or Base DOES NOT EXIST
+	//Using Logger
 	
 	public WebDriver driver;
 	public Logger logger;
@@ -29,15 +29,15 @@ public class Base3 {
 		
 	}
 	
-	public String getRandomString() {					//comes from commons-lang3 library
+	public String getRandomString() {					
 		return RandomStringUtils.randomAlphabetic(6);
 	}
 	
-	public String getRandomNum() {						//comes from commons-lang3 library
+	public String getRandomNum() {						
 		return RandomStringUtils.randomNumeric(10);
 	}
 	
-	public String getRandomAlphaNumeric() {				//comes from commons-lang3 library
+	public String getRandomAlphaNumeric() {				
 		return RandomStringUtils.randomAlphabetic(4) +"@"+ RandomStringUtils.randomNumeric(4);
 	}
 	

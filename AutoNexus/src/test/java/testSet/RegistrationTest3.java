@@ -10,8 +10,7 @@ import testBase.Base3;
 
 public class RegistrationTest3 extends Base3 {
 	// U15.107	
-	// Hard coded values removed with getRandomString method
-	// And added Base2 class that takes care of browser start, tearDown and other parts
+	// Using Logger in Base3
 	
 	@Test
 	public void verify_registration() {
