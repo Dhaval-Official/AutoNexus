@@ -10,30 +10,38 @@ import testBase.Base3;
 
 public class RegistrationTest3 extends Base3 {
 	// U15.107	
-	// Using Logger in Base3
+	// Using Logger in Base3 
+	// there is NO change implemented here it's in the Base3 file  
 	
 	@Test
 	public void verify_registration() {
 		
-		HomePage hm2 = new HomePage(driver);
+		logger.info("****Starting Registration Test****");
 		
-		hm2.clickMyAccount();
-		hm2.clickRegister();
+		HomePage hm3 = new HomePage(driver);
 		
-		RegistrationPage rg2 = new RegistrationPage(driver);
+		logger.info("****Clicking my account Test****");
+		hm3.clickMyAccount();
 		
-		rg2.setFirstName(getRandomString().toUpperCase());
-		rg2.setlastName(getRandomString().toUpperCase());
-		rg2.setEmail(getRandomString()+""+"@gmal3.1.com");
-		rg2.setContact(getRandomNum());
+		logger.info("****Clicking register link Test****");
+		hm3.clickRegister();
+		
+		RegistrationPage rg3 = new RegistrationPage(driver);
+		
+		logger.info("****Entering Registraton Details Test****");
+		rg3.setFirstName(getRandomString().toUpperCase());
+		rg3.setlastName(getRandomString().toUpperCase());
+		rg3.setEmail(getRandomString()+""+"@gmal3.1.com");
+		rg3.setContact(getRandomNum());
 		String pwdtemp = getRandomAlphaNumeric();
-		rg2.setpwd(pwdtemp);
-		rg2.setpwdConfrimation(pwdtemp);
-		rg2.checkPolicy();
-		rg2.clickContinue();
+		rg3.setpwd(pwdtemp);
+		rg3.setpwdConfrimation(pwdtemp);
+		rg3.checkPolicy();
+		rg3.clickContinue();
 		
-		String Actualmsg = rg2.getConfirmationMsg();
+		String Actualmsg = rg3.getConfirmationMsg();
 
+		logger.info("****Verify Account Created Test****");
 		if (Actualmsg.equalsIgnoreCase("Your Account Has Been Created!")) {
 			AssertJUnit.assertTrue(true);
 		} else {

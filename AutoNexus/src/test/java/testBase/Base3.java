@@ -15,12 +15,12 @@ public class Base3 {
 	//Using Logger
 	
 	public WebDriver driver;
-	public Logger logger;
+	public Logger logger;								//U15.107	//loads log4j from xml
 	
 	@BeforeClass
 	public void setup() {
 		
-		logger = LogManager.getLogger();				//U15.107	//loads log4j from xml
+		logger = LogManager.getLogger(this.getClass());				//U15.107	//loads log4j from xml
 		driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
