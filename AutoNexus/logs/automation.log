@@ -1,4 +1,5 @@
-2025-12-17 16:39:42.223 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@65fd6708: 6 ms
-2025-12-17 16:39:42.231 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@54562ea6: 5 ms
-2025-12-17 16:39:42.234 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@766a4535: 3 ms
-2025-12-17 16:39:42.235 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@63718b93: 1 ms
+2025-12-18 22:14:14.627 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@515ebef3: 1 ms
+2025-12-18 22:14:14.650 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@3d36dff4: 15 ms
+2025-12-18 22:14:14.661 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@1a35993f: 10 ms
+2025-12-18 22:14:14.669 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@63718b93: 7 ms
+2025-12-18 22:14:14.670 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@14e2e1c3: 0 ms

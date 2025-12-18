@@ -6,11 +6,12 @@ import org.testng.annotations.Test;
 
 import pageObjects.HomePage;
 import pageObjects.RegistrationPage;
-import testBase.Base3;
+import testBase.Base4;
 
-public class RegistrationTest3 extends Base3 {
-	// U15.107	
-	// Using Logger in Base3 
+public class RegistrationTest4 extends Base4 {
+	// U15.109	
+	// Using Logger from Base4 
+	//
 	
 	@Test
 	public void verify_registration() {
