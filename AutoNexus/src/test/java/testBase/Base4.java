@@ -15,8 +15,7 @@ import org.testng.annotations.BeforeClass;
 
 public class Base4 {
 	
-	//Using Logger
-	
+
 	public WebDriver driver;
 	public Logger logger;								
 	public Properties prop;											//U15.109	//Data.properties
