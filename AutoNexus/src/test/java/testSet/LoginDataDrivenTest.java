@@ -11,19 +11,19 @@ import pageObjects.HomePage;
 import pageObjects.LoginPage;
 import pageObjects.MyAccountPage;
 import testBase.Base5;
+import utilities.DataProviders;
 
-public class LoginTest extends Base5 {
-	// U15.109	
-	// Using Logger from Base4 
-	// 
-	@Test
-	public void verifyLogin() throws IOException {
+public class LoginDataDrivenTest extends Base5 {
+	
+	@Test(dataProvider="loginData", dataProviderClass=DataProviders.class)
+	public void verify_login_DDT(String userName, String password, String expectedResult) throws IOException {
+		
 		
 		logger.info("Clicking on Login");
-		HomePage hm6 = new HomePage(driver);
+		HomePage hm7 = new HomePage(driver);
 		
-		hm6.clickMyAccount();
-		hm6.clickLogin();
+		hm7.clickMyAccount();
+		hm7.clickLogin();
 		
 		
 		logger.info("Entering Login Details");
@@ -48,9 +48,6 @@ public class LoginTest extends Base5 {
 		
 		ap.clickLogoutBtn();
 		logger.info("Logged Out");
-			
-		
 	}
-	
-}
 
+}
