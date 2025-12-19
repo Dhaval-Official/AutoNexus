@@ -18,29 +18,27 @@ public class LoginDataDrivenTest extends Base5 {
 	@Test(dataProvider="loginData", dataProviderClass=DataProviders.class)
 	public void verify_login_DDT(String userName, String password, String expectedResult) throws IOException {
 		
-		
+		//	Landing Page
 		logger.info("Clicking on Login");
-		HomePage hm7 = new HomePage(driver);
 		
+		HomePage hm7 = new HomePage(driver);
 		hm7.clickMyAccount();
 		hm7.clickLogin();
 		
 		
+//		Login Page
 		logger.info("Entering Login Details");
+		
 		LoginPage lp = new LoginPage(driver);
-		
-		prop = new Properties();
-		fs = new FileInputStream("./src//test//resources//data.properties");			//will connect with file
-		prop.load(fs); 	
-		
-		lp.setEmail(prop.getProperty("myEmail"));
-		lp.setPassword(prop.getProperty("myPassword"));
+		lp.setEmail(userName);
+		lp.setPassword(password);
 		lp.clickLoginBtn();
 		
-		
+
+//		My Account Page		
 		logger.info("Verifying Logged In in Account Page");
-		MyAccountPage ap = new MyAccountPage(driver);
 		
+		MyAccountPage ap = new MyAccountPage(driver);
 		SoftAssert sa = new SoftAssert();
 		sa.assertTrue(ap.isMyAccountExist());		
 		//logger.info("Login Failed badlyyyyyyyyyyyyyyyyyy");
