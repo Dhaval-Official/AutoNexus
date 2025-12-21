@@ -147,6 +147,43 @@
 		</profile>
 		<profile>
 			<id>DDTRunner</id>
+			<build>
+				<pluginManagement>
+					<plugins>
+						<plugin>
+							<groupId>org.apache.maven.plugins</groupId>
+							<artifactId>maven-surefire-plugin</artifactId>
+							<version>3.5.3</version>
+							<configuration>
+								<suiteXmlFiles>
+									<suiteXmlFile>U114_DDT.xml</suiteXmlFile>
+								</suiteXmlFiles>
+							</configuration>
+						</plugin>
+					</plugins>
+				</pluginManagement>
+			</build>
+		</profile>
+		<profile>
+			<id>ALLRunner</id>
+			<build>
+				<pluginManagement>
+					<plugins>
+						<plugin>
+							<groupId>org.apache.maven.plugins</groupId>
+							<artifactId>maven-surefire-plugin</artifactId>
+							<version>3.5.3</version>
+							<configuration>
+								<suiteXmlFiles>
+									<suiteXmlFile>U114_DDT.xml</suiteXmlFile>
+									<suiteXmlFile>U115_Grouping.xml</suiteXmlFile>
+									<suiteXmlFile>U117_ExtendReports.xml</suiteXmlFile>
+								</suiteXmlFiles>
+							</configuration>
+						</plugin>
+					</plugins>
+				</pluginManagement>
+			</build>
 		</profile>
 	</profiles>
 

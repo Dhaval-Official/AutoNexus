@@ -1,36 +1,13 @@
-2025-12-21 14:05:31.919 [main] INFO  testSet.RegistrationTest6 - ****Entering Registraton Details Test****
-2025-12-21 14:05:33.709 [main] INFO  testSet.RegistrationTest6 - ****Verify Account Created Test****
-2025-12-21 14:05:35.419 [main] INFO  testSet.LoginTest6 - Clicking on Login
-2025-12-21 14:05:35.851 [main] INFO  testSet.LoginTest6 - Entering Login Details
-2025-12-21 14:05:36.290 [main] INFO  testSet.LoginTest6 - Verifying Logged In in Account Page
-2025-12-21 14:05:37.432 [main] INFO  testSet.LoginTest6 - Logged Out
-2025-12-21 14:08:31.189 [main] INFO  testSet.RegistrationTest6 - ****Starting Registration Test****
-2025-12-21 14:08:31.211 [main] INFO  testSet.RegistrationTest6 - ****Clicking my account Test****
-2025-12-21 14:08:31.367 [main] INFO  testSet.RegistrationTest6 - ****Clicking register link Test****
-2025-12-21 14:08:31.750 [main] INFO  testSet.RegistrationTest6 - ****Entering Registraton Details Test****
-2025-12-21 14:08:33.663 [main] INFO  testSet.RegistrationTest6 - ****Verify Account Created Test****
-2025-12-21 14:08:35.335 [main] INFO  testSet.LoginTest6 - Clicking on Login
-2025-12-21 14:08:35.788 [main] INFO  testSet.LoginTest6 - Entering Login Details
-2025-12-21 14:08:36.950 [main] INFO  testSet.LoginTest6 - Verifying Logged In in Account Page
-2025-12-21 14:08:37.367 [main] INFO  testSet.LoginTest6 - Logged Out
-2025-12-21 14:08:39.467 [main] INFO  testSet.RegistrationTest7 - ****Starting Registration Test****
-2025-12-21 14:08:39.467 [main] INFO  testSet.RegistrationTest7 - ****Clicking my account Test****
-2025-12-21 14:08:39.630 [main] INFO  testSet.RegistrationTest7 - ****Clicking register link Test****
-2025-12-21 14:08:39.999 [main] INFO  testSet.RegistrationTest7 - ****Entering Registraton Details Test****
-2025-12-21 14:08:41.851 [main] INFO  testSet.RegistrationTest7 - ****Verify Account Created Test****
-2025-12-21 14:08:43.573 [main] INFO  testSet.LoginTest7 - Clicking on Login
-2025-12-21 14:08:44.005 [main] INFO  testSet.LoginTest7 - Entering Login Details
-2025-12-21 14:08:45.154 [main] INFO  testSet.LoginTest7 - Verifying Logged In in Account Page
-2025-12-21 14:08:45.553 [main] INFO  testSet.LoginTest7 - Logged Out
-2025-12-21 14:53:22.524 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  /home/dhaval/git/repository/AutoNexus/testNG_Files/testng_S39_base.xml
-
-2025-12-21 14:54:17.057 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  /home/dhaval/git/repository/AutoNexus/testNG_Files/testng_S48_Grouping.xml
-
-2025-12-21 14:55:24.513 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  /home/dhaval/git/repository/AutoNexus/testNG_Files/testng_S54_Assertion.xml
-
-2025-12-21 14:56:14.334 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  /home/dhaval/git/repository/AutoNexus/testNG_Files/testng_S56_RerunFails2.xml
-
+2025-12-21 16:11:51.063 [main] INFO  testSet.RegistrationTest7 - ****Clicking my account Test****
+2025-12-21 16:11:51.130 [main] INFO  testSet.RegistrationTest7 - ****Clicking register link Test****
+2025-12-21 16:11:51.467 [main] INFO  testSet.RegistrationTest7 - ****Entering Registraton Details Test****
+2025-12-21 16:11:52.743 [main] INFO  testSet.RegistrationTest7 - ****Verify Account Created Test****
+2025-12-21 16:30:08.056 [main] INFO  testSet.RegistrationTest6 - ****Starting Registration Test****
+2025-12-21 16:30:08.071 [main] INFO  testSet.RegistrationTest6 - ****Clicking my account Test****
+2025-12-21 16:30:08.146 [main] INFO  testSet.RegistrationTest6 - ****Clicking register link Test****
+2025-12-21 16:30:10.267 [main] INFO  testSet.RegistrationTest6 - ****Entering Registraton Details Test****
+2025-12-21 16:30:25.297 [main] INFO  testSet.RegistrationTest6 - ****Verify Account Created Test****
+2025-12-21 16:30:27.437 [main] INFO  testSet.LoginTest6 - Clicking on Login
+2025-12-21 16:30:28.451 [main] INFO  testSet.LoginTest6 - Entering Login Details
+2025-12-21 16:30:28.719 [main] INFO  testSet.LoginTest6 - Verifying Logged In in Account Page
+2025-12-21 16:30:34.186 [main] INFO  testSet.LoginTest6 - Logged Out
