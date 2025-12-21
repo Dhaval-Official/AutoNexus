@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test All M1 to M4">
+
+		<packages>
+			<package name="Package Directory Name"></package>
+		</packages>
+		<!-- Add all method Names that are required in that package-->
+		
+		<classes>
+			<class name="testMethods.MethodSet02" />
+			<class name="testMethods.MethodSet01" />
+			<class name="testMethods.MethodSet04" />
+			<class name="testMethods.MethodSet03" />
+		</classes>
+		
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

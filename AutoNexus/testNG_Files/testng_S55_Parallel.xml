@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+	<!-- NOT Done Due to Machine issue
+	Rework in future visit if possible-->
+	
+	<test name="Parallel Browsers">
+
+		<classes>
+
+			<class name="testMethods.MethodSet13" />		
+
+		</classes>
+	</test> <!--
+	Test -->
+
+</suite> <!--
+Suite -->

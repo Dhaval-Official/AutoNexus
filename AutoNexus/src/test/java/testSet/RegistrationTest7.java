@@ -12,7 +12,7 @@ import utilities.Retry;
 public class RegistrationTest7 extends Base7 {
 	// U16.115	
 	// Using Logger from Base7 
-	//
+	// if you want is case to fail uncomment line 46
 	
 	@Test(groups= {"Regression", "Sanity","Smoke"}, retryAnalyzer=Retry.class)
 	public void verify_registration() {
@@ -43,7 +43,8 @@ public class RegistrationTest7 extends Base7 {
 		String Actualmsg = rg3.getConfirmationMsg();
 
 		logger.info("****Verify Account Created Test****");
-		if (Actualmsg.equalsIgnoreCase("Your Account Has Been Created!a")) {
+//		if (Actualmsg.equalsIgnoreCase("Your Account Has Been Created!a")) {		//Use this if you want this case to fail
+		if (Actualmsg.equalsIgnoreCase("Your Account Has Been Created!")) {
 			AssertJUnit.assertTrue(true);
 		} else {
 			System.out.println("Test Failed");

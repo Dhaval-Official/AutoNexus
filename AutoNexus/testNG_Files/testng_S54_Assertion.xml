@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+	<listeners>		<!-- Not Necessary but kept for fun-->	
+		<listener class-name="testMethods.MethodSet12"></listener>
+	</listeners>
+
+	<test name="Assertion Samples">
+
+		<classes>
+
+			<class name="testMethods.MethodSet13" />
+		
+
+		</classes>
+	</test> <!--
+	Test -->
+
+</suite> <!--
+Suite -->

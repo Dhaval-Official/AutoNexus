@@ -14,8 +14,8 @@
 
 	<test thread-count="5" name="Regression Suite">
 		<classes>
-			<class name="testSet.RegistrationTest7" />
 			<class name="testSet.LoginTest7" />
+			<class name="testSet.RegistrationTest7" />
 			<!-- is too long hence skipped 
 			<class name="testSet.LoginDataDrivenTest7" /> -->
 		</classes>
