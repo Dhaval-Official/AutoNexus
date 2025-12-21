@@ -3,6 +3,7 @@ package testBase;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
+import java.util.Map;
 import java.util.Properties;
 
 import org.apache.commons.lang3.RandomStringUtils;
@@ -10,6 +11,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
@@ -31,7 +33,17 @@ public class Base5 {
 		
 		logger = LogManager.getLogger(this.getClass());	
 		
-		driver = new ChromeDriver();
+		ChromeOptions options = new ChromeOptions();
+
+	    // Disable Chrome password manager & breach detection					//Added for DDT
+	    options.addArguments("--disable-notifications");
+	    options.addArguments("--disable-save-password-bubble");
+	    options.setExperimentalOption("prefs", Map.of(
+	            "credentials_enable_service", false,
+	            "profile.password_manager_enabled", false
+	    ));
+		
+	    driver = new ChromeDriver(options);
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.get(prop.getProperty("baseURL"));

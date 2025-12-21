@@ -1,11 +1,9 @@
 package testSet;
 
-import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.Properties;
 
+import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
@@ -15,7 +13,7 @@ import utilities.DataProviders;
 
 public class LoginDataDrivenTest extends Base5 {
 	
-	@Test(dataProvider="loginData", dataProviderClass=DataProviders.class)
+	@Test(dataProvider="LoginData", dataProviderClass=DataProviders.class)
 	public void verify_login_DDT(String userName, String password, String expectedResult) throws IOException {
 		
 		//	Landing Page
@@ -39,12 +37,36 @@ public class LoginDataDrivenTest extends Base5 {
 		logger.info("Verifying Logged In in Account Page");
 		
 		MyAccountPage ap = new MyAccountPage(driver);
-		SoftAssert sa = new SoftAssert();
-		sa.assertTrue(ap.isMyAccountExist());		
-		//logger.info("Login Failed badlyyyyyyyyyyyyyyyyyy");
-		sa.assertAll(); 
+
+		boolean targetPageReached = ap.isMyAccountExist();
 		
-		ap.clickLogoutBtn();
+		logger.info("Verifying for Invalid Result");
+		if(expectedResult.equalsIgnoreCase("invalid")) {
+			if(targetPageReached == true) {
+				ap.clickLogoutBtn();
+				AssertJUnit.assertTrue(false);
+			} else {
+				AssertJUnit.assertTrue(true);
+			}
+		}
+		
+		
+		logger.info("Verifying for Valid Result");
+		if(expectedResult.equalsIgnoreCase("valid")) {
+			if(targetPageReached == true) {
+				ap.clickLogoutBtn();
+				AssertJUnit.assertTrue(true);
+			} else {
+				AssertJUnit.assertTrue(false);
+			}
+		}
+		
+		//		SoftAssert sa = new SoftAssert();
+//		sa.assertTrue(ap.isMyAccountExist());		
+//		//logger.info("Login Failed badlyyyyyyyyyyyyyyyyyy");
+//		sa.assertAll(); 
+		
+
 		logger.info("Logged Out");
 	}
 

@@ -19,7 +19,7 @@ public class LoginTest {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize(); 		
-		driver.get("https://google.com");
+		driver.get("https://tutorialsninja.com/demo/index.php?route=account/login");
 
 	}
 	

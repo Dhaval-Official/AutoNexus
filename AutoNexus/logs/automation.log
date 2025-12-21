@@ -1,5 +1,41 @@
-2025-12-18 23:23:32.050 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@26e412ef: 9 ms
-2025-12-18 23:23:32.065 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@5af97169: 9 ms
-2025-12-18 23:23:32.076 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@545607f2: 11 ms
-2025-12-18 23:23:32.083 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@12f8b1d8: 7 ms
-2025-12-18 23:23:32.083 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@746cd757: 0 ms
+2025-12-21 10:11:21.635 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-21 10:11:21.648 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /tmp/testng-eclipse-1715441417/testng-customsuite.xml
+
+2025-12-21 10:11:21.670 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
+2025-12-21 10:11:24.270 [main] INFO  testSet.LoginDataDrivenTest - Clicking on Login
+2025-12-21 10:11:24.695 [main] INFO  testSet.LoginDataDrivenTest - Entering Login Details
+2025-12-21 10:11:24.904 [main] INFO  testSet.LoginDataDrivenTest - Verifying Logged In in Account Page
+2025-12-21 10:11:30.588 [main] INFO  testSet.LoginDataDrivenTest - Verifying for Invalid Result
+2025-12-21 10:11:30.590 [main] INFO  testSet.LoginDataDrivenTest - Verifying for Valid Result
+2025-12-21 10:11:30.590 [main] INFO  testSet.LoginDataDrivenTest - Logged Out
+2025-12-21 10:11:30.597 [main] INFO  testSet.LoginDataDrivenTest - Clicking on Login
+2025-12-21 10:11:30.848 [main] INFO  testSet.LoginDataDrivenTest - Entering Login Details
+2025-12-21 10:11:30.999 [main] INFO  testSet.LoginDataDrivenTest - Verifying Logged In in Account Page
+2025-12-21 10:11:36.009 [main] INFO  testSet.LoginDataDrivenTest - Verifying for Invalid Result
+2025-12-21 10:11:36.009 [main] INFO  testSet.LoginDataDrivenTest - Verifying for Valid Result
+2025-12-21 10:11:36.009 [main] INFO  testSet.LoginDataDrivenTest - Logged Out
+2025-12-21 10:11:36.011 [main] INFO  testSet.LoginDataDrivenTest - Clicking on Login
+2025-12-21 10:11:36.250 [main] INFO  testSet.LoginDataDrivenTest - Entering Login Details
+2025-12-21 10:11:36.403 [main] INFO  testSet.LoginDataDrivenTest - Verifying Logged In in Account Page
+2025-12-21 10:11:42.237 [main] INFO  testSet.LoginDataDrivenTest - Verifying for Invalid Result
+2025-12-21 10:11:42.238 [main] INFO  testSet.LoginDataDrivenTest - Verifying for Valid Result
+2025-12-21 10:11:42.238 [main] INFO  testSet.LoginDataDrivenTest - Logged Out
+2025-12-21 10:11:42.243 [main] INFO  testSet.LoginDataDrivenTest - Clicking on Login
+2025-12-21 10:11:42.486 [main] INFO  testSet.LoginDataDrivenTest - Entering Login Details
+2025-12-21 10:11:42.998 [main] INFO  testSet.LoginDataDrivenTest - Verifying Logged In in Account Page
+2025-12-21 10:11:48.035 [main] INFO  testSet.LoginDataDrivenTest - Verifying for Invalid Result
+2025-12-21 10:11:48.035 [main] INFO  testSet.LoginDataDrivenTest - Verifying for Valid Result
+2025-12-21 10:11:48.035 [main] INFO  testSet.LoginDataDrivenTest - Logged Out
+2025-12-21 10:11:48.039 [main] INFO  testSet.LoginDataDrivenTest - Clicking on Login
+2025-12-21 10:11:48.267 [main] INFO  testSet.LoginDataDrivenTest - Entering Login Details
+2025-12-21 10:11:49.088 [main] INFO  testSet.LoginDataDrivenTest - Verifying Logged In in Account Page
+2025-12-21 10:11:49.119 [main] INFO  testSet.LoginDataDrivenTest - Verifying for Invalid Result
+2025-12-21 10:11:49.119 [main] INFO  testSet.LoginDataDrivenTest - Verifying for Valid Result
+2025-12-21 10:11:49.423 [main] INFO  testSet.LoginDataDrivenTest - Logged Out
+2025-12-21 10:11:49.760 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@334ebcaa: 122 ms
+2025-12-21 10:11:49.761 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@5a0bef24: 1 ms
+2025-12-21 10:11:49.777 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@7bac686b: 16 ms
+2025-12-21 10:11:49.785 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@22c75c01: 7 ms
+2025-12-21 10:11:49.792 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@6d074b14: 7 ms
+2025-12-21 10:11:49.793 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@c017175: 0 ms

@@ -10,9 +10,9 @@ import org.testng.asserts.SoftAssert;
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
 import pageObjects.MyAccountPage;
-import testBase.Base5;
+import testBase.Base4;
 
-public class LoginTest extends Base5 {
+public class LoginTest extends Base4 {
 	// U15.109	
 	// Using Logger from Base4 
 	// 

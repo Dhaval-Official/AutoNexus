@@ -20,7 +20,7 @@ public class DataProviders {
 		String data[][] = new String[rows-1][cols];
 		
 		for(int row=2; row<=rows; row++) {
-			for(int col=0; col<=cols; col++) {
+			for(int col=0; col<cols; col++) {
 				data[row-2][col] = xlutil.getCellData("Sheet1", col, row);
 			}
 		}
@@ -29,7 +29,7 @@ public class DataProviders {
 				
 	}
 	
-	@DataProvider(name="LoginData")
+	@DataProvider(name="LoginDataa")
 	public String[][] getDataforRegistration() {
 		
 		String path = "./testData/OtherData.xlsx";			//this file does no EXIST
