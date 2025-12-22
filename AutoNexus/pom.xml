@@ -243,7 +243,10 @@
 					<configuration>
 						<suiteXmlFiles>
 							<suiteXmlFile>U115_Grouping.xml</suiteXmlFile>
-							<suiteXmlFile>U117_ExtendReports.xml</suiteXmlFile>
+							<!--
+							<suiteXmlFile>U117_ExtendReports.xml</suiteXmlFile> -->
+							<suiteXmlFile>testng_S39_base.xml</suiteXmlFile>
+
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
