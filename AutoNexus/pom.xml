@@ -242,7 +242,9 @@
 					<version>3.5.3</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>U115_Grouping.xml</suiteXmlFile>
+							<suiteXmlFile>testNG_Files/testng_U115_DDT.xml</suiteXmlFile>
+							<suiteXmlFile>testNG_Files/testng_U115_Grouping.xml</suiteXmlFile>
+							<suiteXmlFile>testNG_Files/testng_U115_ExtendReports.xml</suiteXmlFile>
 							<!--
 							<suiteXmlFile>U117_ExtendReports.xml</suiteXmlFile> -->
 							<suiteXmlFile>testng_S39_base.xml</suiteXmlFile>

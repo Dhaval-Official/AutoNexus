@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Data Driven Test">
+
+	<groups>
+		<run>
+			<include name="Regression"></include>
+		</run>
+	</groups>
+
+	<test thread-count="5" name="Regression Suite">
+		<classes>
+			<class name="testSet.RegistrationTest6" />
+			<class name="testSet.LoginTest6" />
+			<!-- below is too long hence skipped -->
+			<!-- <class name="testSet.LoginDataDrivenTest6" />-->		
+		</classes>
+	</test> <!--
+	Login Test -->
+</suite> <!--
+Data Driven Test -->
