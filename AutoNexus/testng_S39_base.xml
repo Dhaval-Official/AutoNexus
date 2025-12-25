@@ -5,5 +5,5 @@
     <classes>
       <class name="testMethods.MethodSet01"/>
     </classes>
-  </test> <!-- Test added-->
+  </test> <!-- Test-->
 </suite> <!-- Suite -->
