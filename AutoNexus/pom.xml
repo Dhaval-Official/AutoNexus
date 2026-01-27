@@ -118,7 +118,8 @@
 							<version>3.5.3</version>
 							<configuration>
 								<suiteXmlFiles>
-									<!-- -><suiteXmlFile>U115_Grouping.xml</suiteXmlFile>-->
+									<suiteXmlFile>U115_Grouping.xml</suiteXmlFile>
+									<suiteXmlFile>testNG_Files/testng_S39_base.xml</suiteXmlFile>
 								</suiteXmlFiles>
 							</configuration>
 						</plugin>
@@ -137,8 +138,8 @@
 							<version>3.5.3</version>
 							<configuration>
 								<suiteXmlFiles>
-									<suiteXmlFile>U117_ExtendReports.xml</suiteXmlFile>
-									<suiteXmlFile>U114_DDT.xml</suiteXmlFile>
+									<suiteXmlFile>U117_ExtendReports.xml</suiteXmlFile>					
+<!-- ->									<suiteXmlFile>U114_DDT.xml</suiteXmlFile> -->
 								</suiteXmlFiles>
 							</configuration>
 						</plugin>
