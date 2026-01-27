@@ -15,7 +15,7 @@ public class LoginPage {
 	
 	
 	//1 constructor
-	LoginPage(WebDriver driver) {
+	LoginPage(WebDriver driver) {  
 		this.driver = driver;
 		PageFactory.initElements(driver, this);				//this is new
 	}
