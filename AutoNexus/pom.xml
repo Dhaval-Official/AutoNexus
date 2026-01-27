@@ -138,6 +138,7 @@
 							<configuration>
 								<suiteXmlFiles>
 									<suiteXmlFile>U117_ExtendReports.xml</suiteXmlFile>
+									<suiteXmlFile>U114_DDT.xml</suiteXmlFile>
 								</suiteXmlFiles>
 							</configuration>
 						</plugin>
