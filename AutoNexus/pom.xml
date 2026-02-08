@@ -139,7 +139,6 @@
 							<configuration>
 								<suiteXmlFiles>
 <!-- ->									<suiteXmlFile>U117_ExtendReports.xml</suiteXmlFile>	-->	
-
 									<suiteXmlFile>testNG_Files/testng_U117_ExtendReports.xml</suiteXmlFile>					
 									<!-- Extra dummy commit space for Jenkins Activation-->		
 <!-- ->									<suiteXmlFile>U114_DDT.xml</suiteXmlFile> -->
