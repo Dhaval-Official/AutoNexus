@@ -4,3 +4,27 @@
 2025-12-23 22:39:52.090 [main] INFO  testSet.LoginTest6 - Entering Login Details
 2025-12-23 22:39:52.398 [main] INFO  testSet.LoginTest6 - Verifying Logged In in Account Page
 2025-12-23 22:39:54.221 [main] INFO  testSet.LoginTest6 - Logged Out
+2026-01-02 23:25:02.371 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/dhaval/git/repository/AutoNexus/U115_Grouping.xml
+
+2026-01-02 23:25:05.555 [main] INFO  testSet.RegistrationTest6 - ****Starting Registration Test****
+2026-01-02 23:25:05.567 [main] INFO  testSet.RegistrationTest6 - ****Clicking my account Test****
+2026-01-02 23:25:05.661 [main] INFO  testSet.RegistrationTest6 - ****Clicking register link Test****
+2026-01-02 23:25:06.249 [main] INFO  testSet.RegistrationTest6 - ****Entering Registraton Details Test****
+2026-01-02 23:25:07.776 [main] INFO  testSet.RegistrationTest6 - ****Verify Account Created Test****
+2026-01-02 23:25:09.151 [main] INFO  testSet.LoginTest6 - Clicking on Login
+2026-01-02 23:25:09.450 [main] INFO  testSet.LoginTest6 - Entering Login Details
+2026-01-02 23:25:09.658 [main] INFO  testSet.LoginTest6 - Verifying Logged In in Account Page
+2026-01-02 23:25:10.760 [main] INFO  testSet.LoginTest6 - Logged Out
+2026-01-11 15:38:02.193 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /home/dhaval/git/repository/AutoNexus/U117_ExtendReports.xml
+
+2026-01-11 15:38:08.299 [main] INFO  testSet.LoginTest7 - Clicking on Login
+2026-01-11 15:38:08.931 [main] INFO  testSet.LoginTest7 - Entering Login Details
+2026-01-11 15:38:10.201 [main] INFO  testSet.LoginTest7 - Verifying Logged In in Account Page
+2026-01-11 15:38:10.631 [main] INFO  testSet.LoginTest7 - Logged Out
+2026-01-11 15:38:12.717 [main] INFO  testSet.RegistrationTest7 - ****Starting Registration Test****
+2026-01-11 15:38:12.718 [main] INFO  testSet.RegistrationTest7 - ****Clicking my account Test****
+2026-01-11 15:38:12.887 [main] INFO  testSet.RegistrationTest7 - ****Clicking register link Test****
+2026-01-11 15:38:13.286 [main] INFO  testSet.RegistrationTest7 - ****Entering Registraton Details Test****
+2026-01-11 15:38:15.101 [main] INFO  testSet.RegistrationTest7 - ****Verify Account Created Test****
