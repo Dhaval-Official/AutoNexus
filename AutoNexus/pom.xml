@@ -19,8 +19,6 @@
 		<maven.compiler.release>17</maven.compiler.release>
 	</properties>
 
-
-
 	<dependencies>
 
 		<!-- TestNG Dependency New for Maven -->
